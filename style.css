@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100;400;800&family=Hanken+Grotesk:ital,wght@0,700;0,800;1,700;1,800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 910px;
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+}
+.container h1 {
+  font-size: 28px;
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  font-family: "Hanken Grotesk", sans-serif;
+  margin-top: 35px;
+}
+.container p {
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+  font-weight: 400;
+}
+.container button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  border: none;
+  margin-top: 90px;
+}
+.container .sedans {
+  max-width: 300px;
+  height: 500px;
+  border-radius: 10px 0 0 10px;
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  margin: 0;
+}
+.container .sedans button {
+  color: hsl(31, 77%, 52%);
+}
+.container .sedans button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+.container .suvs {
+  max-width: 300px;
+  height: 500px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 45px;
+  margin: 0;
+}
+.container .suvs button {
+  color: hsl(184, 100%, 22%);
+}
+.container .suvs button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+.container .luxury {
+  max-width: 310px;
+  height: 500px;
+  background-color: hsl(179, 100%, 13%);
+  padding: 45px;
+  border-radius: 0 10px 10px 0;
+  margin: 0;
+}
+.container .luxury button {
+  color: hsl(179, 100%, 13%);
+}
+.container .luxury button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    display: block;
+    margin: 10px;
+  }
+  .container .sedans {
+    max-width: 370px;
+    border-radius: 10px 10px 0 0;
+  }
+  .container .suvs {
+    max-width: 370px;
+  }
+  .container .luxury {
+    max-width: 370px;
+    border-radius: 0 0 10px 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
